@@ -20,7 +20,7 @@ Required Python libraries: Flask, Dash, Dash-Uploader
 
 1. Clone the Repository:
 
-git clone https://github.com/NCCA/msccavepipelineandtdproject24-ohsidno.git
+git clone https://github.com/ohsidno/3D_Model_Viewer_and_Converter.git
 
 cd 3d-model-hub
 
