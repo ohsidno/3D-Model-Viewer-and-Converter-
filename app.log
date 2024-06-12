@@ -1,0 +1,87 @@
+2024-05-17 11:17:40,930 - INFO - Dash is running on http://0.0.0.0:8050/dash/
+
+2024-05-17 11:17:40,943 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8050
+ * Running on http://10.240.75.243:8050
+2024-05-17 11:17:40,944 - INFO - [33mPress CTRL+C to quit[0m
+2024-05-17 11:17:42,939 - INFO - 127.0.0.1 - - [17/May/2024 11:17:42] "GET /dash/ HTTP/1.1" 200 -
+2024-05-17 11:17:43,212 - INFO - 127.0.0.1 - - [17/May/2024 11:17:43] "GET /dash/_dash-layout HTTP/1.1" 200 -
+2024-05-17 11:17:43,213 - INFO - 127.0.0.1 - - [17/May/2024 11:17:43] "GET /dash/_dash-dependencies HTTP/1.1" 200 -
+2024-05-17 11:17:43,593 - INFO - 127.0.0.1 - - [17/May/2024 11:17:43] "POST /dash/_dash-update-component HTTP/1.1" 200 -
+2024-05-17 11:17:43,593 - DEBUG - Refreshing file list
+2024-05-17 11:17:43,597 - DEBUG - Fetched 0 source files
+2024-05-17 11:17:43,600 - INFO - 127.0.0.1 - - [17/May/2024 11:17:43] "POST /dash/_dash-update-component HTTP/1.1" 200 -
+2024-05-17 11:17:43,624 - INFO - 127.0.0.1 - - [17/May/2024 11:17:43] "[36mGET /dash/_dash-component-suites/dash/dcc/async-upload.js HTTP/1.1[0m" 304 -
+2024-05-17 11:17:43,630 - INFO - 127.0.0.1 - - [17/May/2024 11:17:43] "[36mGET /dash/_dash-component-suites/dash/dcc/async-dropdown.js HTTP/1.1[0m" 304 -
+2024-05-17 11:18:02,283 - DEBUG - Uploaded source file: obj3d.obj
+2024-05-17 11:18:02,283 - DEBUG - Refreshing file list
+2024-05-17 11:18:02,284 - DEBUG - Fetched 1 source files
+2024-05-17 11:18:02,286 - INFO - 127.0.0.1 - - [17/May/2024 11:18:02] "POST /dash/_dash-update-component HTTP/1.1" 200 -
+2024-05-17 11:18:08,103 - INFO - 127.0.0.1 - - [17/May/2024 11:18:08] "POST /dash/_dash-update-component HTTP/1.1" 200 -
+2024-05-17 11:18:08,439 - DEBUG - Refreshing file list
+2024-05-17 11:18:08,439 - DEBUG - Fetched 1 source files
+2024-05-17 11:18:08,440 - DEBUG - Refreshing texture list
+2024-05-17 11:18:08,440 - DEBUG - Fetched 0 texture files for obj3d.obj
+2024-05-17 11:18:08,442 - INFO - 127.0.0.1 - - [17/May/2024 11:18:08] "POST /dash/_dash-update-component HTTP/1.1" 200 -
+2024-05-17 11:18:19,236 - DEBUG - Uploaded texture file: IMG_20240418_150343_731.jpg
+2024-05-17 11:18:19,237 - DEBUG - Refreshing file list
+2024-05-17 11:18:19,239 - DEBUG - Fetched 1 source files
+2024-05-17 11:18:19,239 - DEBUG - Refreshing texture list
+2024-05-17 11:18:19,240 - DEBUG - Fetched 1 texture files for obj3d.obj
+2024-05-17 11:18:19,243 - INFO - 127.0.0.1 - - [17/May/2024 11:18:19] "POST /dash/_dash-update-component HTTP/1.1" 200 -
+2024-05-17 11:18:21,231 - INFO - 127.0.0.1 - - [17/May/2024 11:18:21] "POST /dash/_dash-update-component HTTP/1.1" 200 -
+2024-05-17 11:18:21,273 - DEBUG - Refreshing file list
+2024-05-17 11:18:21,275 - DEBUG - Fetched 1 source files
+2024-05-17 11:18:21,275 - DEBUG - Refreshing texture list
+2024-05-17 11:18:21,276 - DEBUG - Fetched 1 texture files for obj3d.obj
+2024-05-17 11:18:21,279 - INFO - 127.0.0.1 - - [17/May/2024 11:18:21] "POST /dash/_dash-update-component HTTP/1.1" 200 -
+2024-05-17 11:18:49,168 - INFO - 127.0.0.1 - - [17/May/2024 11:18:49] "POST /dash/_dash-update-component HTTP/1.1" 200 -
+2024-05-17 11:18:49,197 - DEBUG - Refreshing file list
+2024-05-17 11:18:56,582 - DEBUG - Fetched 1 source files
+2024-05-17 11:18:57,382 - DEBUG - Refreshing texture list
+2024-05-17 11:18:59,207 - DEBUG - Fetched 1 texture files for obj3d.obj
+2024-05-17 11:18:59,210 - INFO - 127.0.0.1 - - [17/May/2024 11:18:59] "POST /dash/_dash-update-component HTTP/1.1" 200 -
+2024-05-17 11:19:09,322 - DEBUG - Loading file for conversion: C:\Users\sawka\OneDrive\Desktop\pipeline_TD_v2\proj_v3\temp_uploads\LastVerstionHibiscus5.fbx
+2024-05-17 11:19:10,036 - DEBUG - Scene loaded successfully with 10 meshes
+2024-05-17 11:19:10,038 - DEBUG - Exporting scene to OBJ: C:\Users\sawka\OneDrive\Desktop\pipeline_TD_v2\proj_v3\temp_uploads\LastVerstionHibiscus5.obj
+2024-05-17 11:19:12,071 - DEBUG - Exported scene to OBJ successfully
+2024-05-17 11:19:12,236 - DEBUG - Uploaded source file: LastVerstionHibiscus5.fbx
+2024-05-17 11:19:12,236 - DEBUG - Refreshing file list
+2024-05-17 11:19:12,238 - DEBUG - Fetched 2 source files
+2024-05-17 11:19:12,250 - INFO - 127.0.0.1 - - [17/May/2024 11:19:12] "POST /dash/_dash-update-component HTTP/1.1" 200 -
+2024-05-17 11:19:12,275 - INFO - 127.0.0.1 - - [17/May/2024 11:19:12] "POST /dash/_dash-update-component HTTP/1.1" 200 -
+2024-05-17 11:19:12,853 - DEBUG - Refreshing file list
+2024-05-17 11:19:12,855 - DEBUG - Fetched 2 source files
+2024-05-17 11:19:12,855 - DEBUG - Refreshing texture list
+2024-05-17 11:19:12,856 - DEBUG - Fetched 1 texture files for obj3d.obj
+2024-05-17 11:19:12,859 - INFO - 127.0.0.1 - - [17/May/2024 11:19:12] "POST /dash/_dash-update-component HTTP/1.1" 200 -
+2024-05-17 11:19:14,239 - INFO - 127.0.0.1 - - [17/May/2024 11:19:14] "POST /dash/_dash-update-component HTTP/1.1" 200 -
+2024-05-17 11:19:14,806 - DEBUG - Refreshing file list
+2024-05-17 11:19:14,807 - DEBUG - Fetched 2 source files
+2024-05-17 11:19:14,807 - DEBUG - Refreshing texture list
+2024-05-17 11:19:14,808 - DEBUG - Fetched 0 texture files for LastVerstionHibiscus5.fbx
+2024-05-17 11:19:14,811 - INFO - 127.0.0.1 - - [17/May/2024 11:19:14] "POST /dash/_dash-update-component HTTP/1.1" 200 -
+2024-05-17 11:19:23,375 - DEBUG - Uploaded texture file: textp.png
+2024-05-17 11:19:23,376 - DEBUG - Refreshing file list
+2024-05-17 11:19:23,378 - DEBUG - Fetched 2 source files
+2024-05-17 11:19:23,379 - DEBUG - Refreshing texture list
+2024-05-17 11:19:23,380 - DEBUG - Fetched 1 texture files for LastVerstionHibiscus5.fbx
+2024-05-17 11:19:23,382 - INFO - 127.0.0.1 - - [17/May/2024 11:19:23] "POST /dash/_dash-update-component HTTP/1.1" 200 -
+2024-05-17 11:19:26,052 - INFO - 127.0.0.1 - - [17/May/2024 11:19:26] "POST /dash/_dash-update-component HTTP/1.1" 200 -
+2024-05-17 11:19:26,373 - DEBUG - Refreshing file list
+2024-05-17 11:19:29,630 - DEBUG - Fetched 2 source files
+2024-05-17 11:19:29,630 - DEBUG - Refreshing texture list
+2024-05-17 11:19:29,638 - ERROR - libjpeg could not read file: C:\Users\sawka\OneDrive\Desktop\pipeline_TD_v2\proj_v3\texture_uploads\temp_texture.jpg
+2024-05-17 11:19:29,640 - ERROR - libjpeg could not read file: C:\Users\sawka\OneDrive\Desktop\pipeline_TD_v2\proj_v3\texture_uploads\temp_texture.jpg
+2024-05-17 11:19:29,640 - DEBUG - Fetched 1 texture files for LastVerstionHibiscus5.fbx
+2024-05-17 11:19:29,640 - ERROR - Algorithm vtkJPEGReader (0000028974340320) returned failure for request: vtkInformation (0000028973CC7180)
+2024-05-17 11:19:29,684 - INFO - 127.0.0.1 - - [17/May/2024 11:19:29] "POST /dash/_dash-update-component HTTP/1.1" 200 -
+2024-05-17 11:19:29,740 - DEBUG - STREAM b'IHDR' 16 13
+2024-05-17 11:19:29,741 - DEBUG - STREAM b'pHYs' 41 9
+2024-05-17 11:19:29,741 - DEBUG - STREAM b'IDAT' 62 467018
+2024-05-17 11:19:29,741 - DEBUG - STREAM b'IHDR' 16 13
+2024-05-17 11:19:29,741 - DEBUG - STREAM b'pHYs' 41 9
+2024-05-17 11:19:29,742 - DEBUG - STREAM b'IDAT' 62 467018
+2024-05-17 11:19:29,770 - DEBUG - Error closing: Operation on closed image
+2024-05-17 11:19:48,472 - INFO - 127.0.0.1 - - [17/May/2024 11:19:48] "GET /download-model/LastVerstionHibiscus5.obj/textp.png HTTP/1.1" 200 -
