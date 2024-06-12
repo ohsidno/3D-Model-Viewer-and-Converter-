@@ -1,9 +1,9 @@
-#3D Model Hub: Upload, View, and Download
+# 3D Model Hub: Upload, View, and Download
 
-##Overview
+## Overview
 The 3D Model Hub is a web-based application designed to facilitate the uploading, viewing, and downloading of 3D models along with their associated textures. This application, built with Flask for the backend server, Dash for the frontend interface, and SQLite for database management, provides a user-friendly platform for managing 3D models and textures.
 
-##Features
+## Features
 
 File Upload: Allows users to upload 3D model files and texture files via the web interface.
 Database Management: Stores uploaded files in an SQLite database.
@@ -44,16 +44,22 @@ Open a web browser and navigate to http://localhost:8050/dash/.
 ### Components
 
 Flask Application: Manages server-side operations, including routing and file serving.
+
 Dash Application: Provides the web interface for user interactions using Dash for interactive web components.
+
 SQLite Database: Stores information about uploaded files and their content.
+
 Logging: Logs activities and errors for debugging and monitoring purposes.
 
 
 ## Directory Structure
 
 uploads/: Stores uploaded 3D model files.
+
 temp_uploads/: Stores temporary files.
+
 texture_uploads/: Stores uploaded texture files.
+
 downloads/: Stores downloadable ZIP files.
 
 
@@ -72,9 +78,9 @@ Rendering: The selected source and texture files are processed and rendered for 
 Downloading: The rendered model and texture files are compressed into a ZIP file for download.
 
 
-#User Manual
+# User Manual
 
-#Uploading Files
+## Uploading Files
 
 1. Upload a 3D Model:
 
@@ -123,7 +129,7 @@ After rendering, a download link will appear .
 Click the link to download the ZIP file containing the rendered 3D model and texture.
 Save the ZIP file to your desired location on your computer.
 
-##Troubleshooting Tips
+## Troubleshooting Tips
 
 File Upload Issues:
 
@@ -144,9 +150,12 @@ By following these instructions, you can effectively use the 3D Model Hub UI to 
 
 ## References
 
-
 Flask: Flask Documentation (https://pypi.org/project/Flask/)
+
 Dash: Dash Documentation (https://pypi.org/project/dash/)
+
 SQLite: SQLite Documentation (https://docs.python.org/3/library/sqlite3.html)
+
 Dash Uploader: Dash Uploader Documentation (https://pypi.org/project/dash-uploader/)
+
 Werkzeug: Werkzeug Documentation (https://pypi.org/project/Werkzeug/)
